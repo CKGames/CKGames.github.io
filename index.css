@@ -1,0 +1,76 @@
+body {
+    font-family:"Insaniburger" ;
+    margin :0;
+    background: linear-gradient(rgb(108, 203, 214)70%, white);
+    font-size: 2em;
+}
+
+.topnav div:hover{
+    background-color: rgb(255, 212, 241);
+}
+
+.topnav a:link {
+    text-decoration: none;
+}
+
+.active {
+    background-color:rgba(255, 212, 241, 0.9);
+}
+
+.main {
+    width: 100%;
+    margin: 0;
+}
+
+.topnav {
+    background-color:white;
+    color: rgb(100, 60, 120);
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    position: fixed;
+    flex-direction: row;
+    justify-content: space-around;
+    z-index: 1;
+    list-style: none;
+}
+
+div {
+    margin-top: 0;
+    display: flex;
+    text-align: center;
+    box-sizing: content-box;
+    padding: 0.5em;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+div img {
+    margin: 0.5em;
+    height:15vw;
+    padding: 1em;
+    background-color:rgba(225, 255, 223, 0.8);
+    cursor: pointer;
+    transition: all 0.5s, background-color 0.2s;
+}
+
+div img:hover{
+    transform: translate(-.2em, -.2em);
+    box-shadow: .2em.2em.4em rgb(142, 142, 142);
+}
+
+div p {
+    padding-left: 3em;
+    padding-right: 3em;
+    color: rgb(75, 73,74);
+}
+
+footer {
+    font-size: 18px;
+    color:  rgb(75, 73,74);
+    padding: 0.5em;
+}
+
+
+

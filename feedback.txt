@@ -1,0 +1,11 @@
+Hi Yun Fei,
+
+Hope you're doing well.
+
+One thing I like about is that you put the 3D model demo and the video of yourself together, users can see what you want to demo to them.
+It would be nice if you do transactions by clicking effects --> video transaction in adobe premium pro to make it smoother.
+As for the background part of the website, you can try out using background-size: contain; to make it looks more consistent.
+
+Hope these can help.
+
+Ling
